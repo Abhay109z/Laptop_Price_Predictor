@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load model and data
-pipe = pickle.load(open('/Users/mymackbook/PycharmProjects/Laptop_Price_Predictor/pipe.pkl', 'rb'))
-df = pickle.load(open('/Users/mymackbook/PycharmProjects/Laptop_Price_Predictor/df.pkl', 'rb'))
+pipe = pickle.load(open('pipe.pkl', 'rb'))
+df = pickle.load(open('df.pkl', 'rb'))
 
 # Page config
 st.set_page_config(page_title="Laptop Price Predictor 💻", page_icon="💰", layout="centered")
